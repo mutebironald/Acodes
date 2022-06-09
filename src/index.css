@@ -1,0 +1,35 @@
+.App{
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: darkblue;
+}
+
+h1{
+  margin: 5px 0px 20px 0px;
+}
+
+.form-data{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+input[type="text"]{
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px;
+}
+
+input[type="text"]:disabled {
+  background-color: #fff;
+}
+
+label{
+  font-size: 1.3rem;
+}
